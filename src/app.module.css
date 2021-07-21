@@ -1,0 +1,7 @@
+.error {
+    background: rgb(224, 19, 53);
+    border: none;
+}
+.error:hover {
+    background: rgb(211, 76, 98);
+}
