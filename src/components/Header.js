@@ -47,13 +47,13 @@ function Header() {
               </NavDropdown>
             </Nav>
           </Col>
-          <Col sm lg="2">
-            <Link to="/login" className="btn btn-outline-primary">
+          <Col sm lg="2" className={styles.mb_2 }>
+            <Link to="/login" className=" btn btn-outline-primary lt-1">
               LOGIN
             </Link>
           </Col>
           <Col sm lg="2">
-            <Link to="/signup" className="btn btn-primary">SIGNUP</Link>
+            <Link to="/signup" className="btn btn-primary lt-1">SIGNUP</Link>
           </Col>
         </Navbar.Collapse>
       </Navbar>

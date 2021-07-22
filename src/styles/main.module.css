@@ -1,0 +1,31 @@
+.hero1 {
+    background-image: url(../assets/hero1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+.hero2 {
+    background-image: url(../assets/hero3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+.hero3 {
+    background-image: url(../assets/hero2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+
+.bold {
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+._br5 {
+    border-radius: 20px;
+    padding: 10px;
+}
