@@ -1,7 +1,7 @@
 import React from "react";
 // import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 // import {  } from 'react-responsive-carousel';
-import { Row, Col, Button, Carousel } from "react-bootstrap";
+import { Row, Col, Button } from "react-bootstrap";
 import Header from './Header';
 import styles from "../styles/main.module.css";
 import inventory from "../assets/inventory.png";
@@ -137,7 +137,7 @@ function Main() {
       </Row>
       <Row className="d-flex justify-content-center mt-3">
         <Col className="d-flex justify-content-center mb-0">
-          <h4 className="text-mute">Stocka Maanagement System <code className="text-primary">2021</code></h4>
+          <h6 className="text-muted">Stocka Management System <code className="text-primary">2021</code></h6>
         </Col>
       </Row>
     </div>

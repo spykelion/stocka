@@ -2,8 +2,8 @@ import React from 'react';
 import "./App.css";
 import styles from "./app.module.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import {Button, Container }from 'react-bootstrap';
-import Header from "./components/Header";
+import { Container }from 'react-bootstrap';
+// import Header from "./components/Header";
 import LandingPage from "./components/Main";
 function App() {
   return (
