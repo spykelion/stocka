@@ -39,7 +39,7 @@ body {
 .lt-1 {
   letter-spacing: 1px;
 }
-.color-primary {
+.text-primary {
   color: var(--primary);
 }
 
