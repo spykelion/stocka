@@ -1,7 +1,8 @@
 import React from "react";
 // import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 // import {  } from 'react-responsive-carousel';
-import { Row, Col, Button } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
+import {Link } from 'react-router-dom';
 import Header from './Header';
 import styles from "../styles/main.module.css";
 import inventory from "../assets/inventory.png";
@@ -25,11 +26,11 @@ function Main() {
             With our robust inventory management software, you can increase your
             sales and keep track of every unit.
           </h5>
-          <Button
+          <Link to="/signup"
             className={styles._br5 + " btn btn-primary mt-5 mb-5 bold lt-1"}
           >
             SIGN UP FOR FREE
-          </Button>
+          </Link>
         </Col>
         <Col className={styles.hero1 + " none none1"}></Col>
         <Col className={styles.hero2 + " none none2"}></Col>
