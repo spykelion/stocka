@@ -70,7 +70,7 @@ const [show, setShow] = useState(false);
         
         </Navbar.Collapse>
       </Navbar>
-      {show ? <Notification callback={hideMe} onClick={handleClose} /> :null}
+      {show ? <Notification callback={hideMe} show={handleShow} /> :null}
     </Row>
   );
 }
