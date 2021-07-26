@@ -4,5 +4,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### under dev't see demo  [Stocka](https://stocka.netlify.app).
 
-
+# How to contribute
+- Fork this repository
+- Clone to local environment
+## Install dependencies
+ `yarn add`
+## Start project
+  `yarn start`
 
