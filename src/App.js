@@ -6,7 +6,9 @@ import { Container }from 'react-bootstrap';
 // import Header from "./components/Header";
 import LandingPage from "./components/Main";
 import Signup from "./components/Signup";
+import Login from "./components/Login";
 function App() {
+  document.title="Stocka"
   return (
     <Router>
       <Container fluid>
@@ -17,13 +19,12 @@ function App() {
             <LandingPage />
           </Route>
           <Route path="/login" exact>
-            <Container>
-            <Link to="/">Home</Link>
-            <div>Login component</div>
+            <Container fluid className="p-0 m-0">            
+            <Login/>
             </Container>
           </Route>
           <Route path="/signup" exact>
-            <Container>
+            <Container fluid className="p-0 m-0">
                <Signup/>
             </Container>
           </Route>
