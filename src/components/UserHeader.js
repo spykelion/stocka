@@ -70,7 +70,7 @@ const [show, setShow] = useState(false);
         
         </Navbar.Collapse>
       </Navbar>
-      {show ? <Notification callback={hideMe} onClick={handleClose} show={handleShow} onHide={handleClose}/> :null}
+      {show ? <Notification callback={hideMe} onClick={handleClose} /> :null}
     </Row>
   );
 }
@@ -82,10 +82,6 @@ function Notification(props) {
       setShow(false);
       props.callback(show);
 };
-  const handleShow = () => {
-      setShow(true);
-      props.callback(show);
-    };
 
   return (
     <div>
