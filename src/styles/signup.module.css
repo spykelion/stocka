@@ -1,0 +1,43 @@
+.position_relative {
+    position: relative;
+}
+.position_absolute {
+    position: absolute;
+}
+
+.eye, .eye_slash {
+    position: absolute !important;
+    bottom: 7px;
+    right: 3px;
+}
+/* .eye_slash {
+    top: 27px;
+    bottom: 0px;
+    right: 0;
+} */
+
+
+/* @media screen and (max-width: 981px) { 
+    .eye, .eye_slash {
+        bottom: 48px;
+    }
+     .eye_slash {
+        bottom: 50px;
+    }
+} */
+
+@media screen and (max-width: 515px) {
+    .sideimage {
+      display: none;
+    }
+    .grid.center {
+        display: flex;
+        justify-content: center;
+    }
+    .col_12 {
+        flex: auto;
+        padding: 10px;
+        height: fit-content;
+    }
+  
+  }
